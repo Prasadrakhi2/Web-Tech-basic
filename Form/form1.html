@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <fieldset>
+    <!-- method => get data at any place, 
+         action => transfer this form request to someone else 
+         name => save data in backend as per given name-->
+         <legend>Enquerie form</legend>
+    <form method="" action="">
+
+        <!-- radio => to check from multiple option  
+             value => as per name it save in backend
+             name  => if both have same name we onle check onne -->
+
+        <label>Gender</label><br/>
+        <input type="radio" value="male" name="gender"/>Male
+        <input type="radio" value="female" name="gender"/>Female
+        <br/>
+        
+
+
+        <label>Name</label> <br/> 
+        <input type="text" placeholder="enter the name" pattern="[a-zA-Z ]{3,40}" name="uname" required/>
+        <br/>
+
+
+
+        <!-- checkbox => we can chose multiple option -->
+        <label>cources</label><br/>
+        <input type="checkbox" value="php"/>php
+        <input type="checkbox" value="java"/>java
+        <input type="checkbox" value="c++"/>c++
+        <input type="checkbox" value="c"/>c
+        <br/>
+
+
+
+        <label>Email</label><br/>
+        <input type="email" placeholder="enter your email"  name="ename"/>
+        <br/>
+
+
+
+        <label >phone no</label> <br/>
+        <input type="tel" pattern="[0-9]{10}" name="phone no" title="enter the 10 diggit number"/>
+        <br/>
+
+
+
+        <label>message</label><br/>
+        <textarea name="" id=""></textarea><br/>
+
+
+        <!-- accept => only accept the given tipe of files -->
+        <label>photo</label><br/>
+        <input type="file"  accept="image/png, image/jpeg, .doc, .docx, .xml, .pdf, .ppt"><br/>
+
+
+        <label>password</label><br/>
+        <input type="password"  pattern="[0-9a-z@ ]"><br/>
+
+
+
+        <label>country</label><br/>
+        <select>
+            <option>-----Select Country-------</option>
+            <option value="india">india</option>
+            <option value="us">us</option>
+            <option value="austrelia">austrelia</option>
+            <option value="englend">englend</option>
+            <option value="ukrain">ukrain</option>
+            <option value="hungry">hungry</option>
+            
+        </select>
+        <br/>
+
+
+
+        <label>cources</label><br/>
+        <select>
+            <option>----Select cource------</option>
+            <optgroup label="frontend">
+                <option value="html">HTML</option>
+                <option value="css">css</option>
+                <option value="js">JS</option>
+            </optgroup>
+
+            <optgroup label="backend">
+                <option value="mongo">mongo</option>
+                <option value="mern">mern</option>
+                <option value="react">react</option>
+            </optgroup>
+        </select><br/>
+
+
+
+
+        <button type="submit">submit</button>
+
+    </form>
+</fieldset>
+</body>
+</html>

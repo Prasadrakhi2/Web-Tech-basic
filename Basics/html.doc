@@ -1,0 +1,58 @@
+HTML => hyper text marcup language
+     => Structure of any website
+     => work -> tags -> 
+                     type -> 1.open tag  2. closed tag => pair(ex -> <html> </html>)
+
+                tage -> 1. inline tags(contain space only for that element or part ex => <b> rakhi </b> )      
+                        2. block tags
+
+tages :=
+1. <b></b>  => bold
+  or
+  <Strong></Strong>  => bold also , better in serch engin
+
+2. <br/>   => break
+3. <hr/>   => horizontal line
+4. <i></i> => italic
+5. <u></u> => underline
+6. <h1></h1> => heading (block element)
+7. <p></p>   => paragraph
+8.<img src="folder_name/image_name"   width=""  height=""  tital=""  alt="alternative text"/>  => image  (inline,open), alt=>is image not view then the text show on browser
+  or  
+  src="live path"  ex=> src="https://www.google.com/imgres?q=images&imgurl=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2021%2F08%2F25%2F20%2F42%2Ffield-6574455_640.jpg&imgrefurl=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fnature%2F&docid=Ba_eiczVaD9-zM&tbnid=Q2I76yavymaVQM&vet=12ahUKEwibprq06--IAxUhzjgGHf3rACkQM3oECC4QAA..i&w=640&h=426&hcb=2&ved=2ahUKEwibprq06--IAxUhzjgGHf3rACkQM3oECC4QAA"
+
+
+
+//**********  list  **********//
+9. <ol></ol>    => order list (block element)
+                  type => 1,A,a,I,i  ex=> <ol type='A'> then it list all in A,B,C,....
+
+10. <ul></ul>   => unordered list
+                 type => 1. square,circle
+11. <li></li>   => list items   (use inside ol,ul)
+
+
+
+
+//*********  table  ***********//
+12. <th><th/>   => Heading of table
+13. <thead></thead>
+14. <tbody></tbody>
+15. <tr></td></td></tr>
+
+
+15. <div></div> => block
+
+
+
+
+//*********** form ***************//
+16. <fieldset></fieldset>   => give border on form
+17. <legend></legend>       => put heading on/between the border of fieldset
+18.  <form></form>          => use to make a form
+19. <label></label>         => give the heading of input
+20. <input>                 => took the input from user
+21. <textarea></textarea>   => provide the text are for message
+22. <datalist>             => give auto suggetion
+
+23. <iframe></iframe>      => give the url of any third pary apps

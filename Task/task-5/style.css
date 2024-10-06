@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.project{
+    background-color: rgb(233, 204, 119);
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.project-mid{
+    width: 1350px;
+    margin: auto;
+   
+    /* background-color: #b4cede; */
+
+}
+
+.project-mid h2{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.project-item-outer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.item{
+    width: 18%;
+    margin: 1%;
+    padding: 30px 0px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.item img{
+    width: 50px;
+}
+
+/* 
+
+div.item img{
+    
+} */

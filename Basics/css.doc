@@ -1,0 +1,97 @@
+1. css => Cascasding style sheet
+2. type  =>  1. inline css  2. internal css  3. external css
+3. css selectors  => 1.class(.)   2.id(#)     3.tag
+
+* default font size = 16px
+* 1em = 16px  or(dipends on perent font px ex; we pass 10px in main div then '1em = 10px')
+* body-tag  = take "8px" margin by itself
+
+
+
+
+///***************** //
+
+use 
+*{
+    padding : 0px;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+//********** box  *********************//
+1. float  => colum wise direction (either left or right) , if already in left than adjest after that ex. we sit in the class room
+
+
+
+
+//************* text ****************//
+1. color
+2. font-size
+3. text-align   => (left, right, center, justify)
+4. font-wight   => (bold / bolder the letter)
+5. font-style   => (like italic etc..)
+6. text-decoretion  => (underline, cross the text etc..)
+7. text- transform  => (upercase, lowercase, capatilize i.e. every first letter is capital)
+8. word-spacing    =>  (give the space between words)    (or we can use '&nbsp' in between html wods)
+9.  letter-spacing
+10. font-family
+
+
+
+//************  box-model **************//
+1. border: size type color    =>  five border in all side as per our direction (but it incress the height & width of main div  , so we decrice the size of height and width of main div as per the bored size)
+2. border-left , border-right,.....
+
+
+3.Margin  => give the gap from outside
+3. margin : ;   (use auto for take in middle) (also can be "margin: T,R,B,L;" i.e=>clock wise   or "margin: 10px 40px;"  which 10px=> top & bottom  and 40px for right-left  )  (decress the parent dive size as per the margin otherwise content shift in bottom)
+so use (margin: auto;) it shift div from left and right autometicaly
+
+4. padding => gap from inside(i.e adjust the containt) (but decreass the 'height' and 'width' as per the padding)
+
+
+
+
+//*********** background images *********************//
+1. background : ; (both can give either color or image)
+2. background-image: url();
+3. background-repeat: ;  (no-repeat , repeat-x, repeat-y)
+4. background-position: ; (center, top , left , left center , right, etc...)
+5. background-size: ; (cover = cover whole part)
+
+**** cover always come after placing the image ******
+
+6. background-attachment: fixed; ( give the parelex effect i.e the image will fix and other thing eill scroll in it)
+
+
+
+
+
+//**************** shadow ****************//
+text =>
+
+1. text-shadow: x-offset y-offset blur color;  (x-offset , y-offset, blur, color)
+
+
+box =>
+
+1.   box-shadow: x-offset y-offset blur  all-direction color;  (if we use "inset" and then property so shadow comes inside)
+
+
+
+
+///*********  Flex - box ************************//
+* it is a "parent" property which take all element either x-axis in web and y-axis in phone
+* if total size of 'childs' are more to bhi 'parent' adjest all child in same line 
+
+1. display : flex;
+
+* for give the lengt/adjest according to us use
+1.  flex-wrap: wrap;
+2.flex-direction : ; (row-normaly it is done, colum-it take all items verticaly like in phone)
+                         (also - row-reverse, col-reverse)

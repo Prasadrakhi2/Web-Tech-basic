@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <fieldset>
+        <legend>new input type</legend>
+
+        <form>
+
+            <!-- datalist => auto suggestion 
+                list => connect the id of data list by their id-->
+            <label>course</label>
+            <input type="text" list="cources">
+            <datalist id="cources">
+                <option value="java" />
+                <option value="c++" />
+                <option value="c" />
+                <option value="php" />
+            </datalist><br/>
+
+
+            
+            <label>name</label><br/>
+            <input type="text" minlength="5" maxlength="15"/><br/>
+
+
+
+            <label>QNT</label><br/>
+            <input type="number" min="1" max="10"/><br/>
+
+            
+            <label>Date</label><br/>
+            <input type="date"/><br/>
+
+
+            
+            <label>Time</label><br/>
+            <input type="time"/><br/>
+
+
+            
+            <label>Week</label><br/>
+            <input type="week" /><br/>
+
+
+            <!-- use  to add url like git, linkdin etc.. -->
+            <label>url</label><br/>
+            <input type="url" /><br/>
+
+
+            <!-- use  to add range like price etc.. -->
+            <label>range</label><br/>
+            <input type="range" /><br/>
+
+
+
+            <!-- use  to add color in specific background -->
+            <label>color</label><br/>
+            <input type="color" /><br/>
+
+
+
+            <!-- iframe => give thre the third party video like youtube etc... -->
+             <iframe src="https://www.wscubetech.com/" width="100%" height="300px"></iframe>
+             <br/>
+             
+             
+             
+             <iframe width="500" height="522" src="https://www.youtube.com/embed/feigIqugUsA" title="Vigdiyan Heeran - Full Video | Honey 3.0 | Yo Yo Honey Singh &amp; Urvashi Rautela | Zee Music Originals" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             <br/>
+
+
+
+
+            <button type="submit">save</button>
+            <button type="reset">reset</button>
+            <button type="button">button</button>
+
+        </form>
+    </fieldset>
+</body>
+</html>
+
+<iframe></iframe>

@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+.main
+{
+    width: 1000px;
+    height: 540px;
+    background-color: powderblue;
+}
+
+.row1{
+    width: 1000px;
+    height: 70px;
+    background-color: gray;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    /*text-shadow: 2px 0px 2px rgb(196, 20, 108);
+  or*/
+    text-shadow: 2px 3px 5px red, 4px -2px 0px blueviolet;
+
+}
+
+.row2{
+    width: 1000px;
+    height: 40px;
+    background-color: greenyellow;
+ 
+}
+
+.row2c{
+    width: 190px;
+    height: 28px;
+    float: left;
+    margin: 5px;
+    padding-top: 2px;
+    color: rgb(27, 19, 19);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.row3{
+    width: 1000px;
+    height: 200px;
+    background-color: red;
+    text-transform: capitalize;
+}
+
+.row3c1{
+    width: 250px;
+    height: 200px;
+    background-color: burlywood;
+    float: left;
+    }
+
+.row3c2{
+    width: 750px;
+    height: 200px;
+    background-color: pink;
+    float: right;
+    
+}
+
+.row3c11{
+    height: 40px;
+    width: 250px; 
+    text-align: center;
+}
+
+.row4{
+    text-transform: capitalize;
+    width: 1000px;
+    height: 42px;
+    background-color: rgb(203, 61, 246);
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    padding-top: 8px;
+}
+
+.row5{
+    width: 1000px;
+    height: 100px;
+    background-color: black;
+}
+
+.row5c{
+    width: 326px;
+    height: 96px;
+    float: left;
+    padding: 2px;
+}
+
+.row6{
+    height: 42px;
+    width: 1000px;
+    background-color: rgb(131, 128, 128);
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 20px;
+    color: white;
+}
+
