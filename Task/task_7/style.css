@@ -1,0 +1,55 @@
+p{
+    color: red;
+    font-size: 30px;
+}
+
+/* here it only work on the outer tags i.e. the 'p' tag which is not comes under any inner tag*/
+/* .main >p{
+    color: red;
+    font-size: 30px;
+    font-family: ;
+} */
+
+
+.text p{
+    color: green;
+}
+
+.text p:first-child{
+    color: purple;
+}
+
+.text p:last-child{
+    color: mediumblue;
+}
+
+.text p:nth-child(2){
+    color: rgb(203, 64, 152);
+}
+
+.hover_box{
+    width: 300px;
+    background-color: cadetblue;
+    height: 300px;
+    transition: 2s;
+}
+
+.hover_box:hover{
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+i{
+    font-size: 30px;
+    color: blue;
+    transition: 0.5s;
+
+}
+
+i:hover{
+    color: rgb(197, 11, 135);
+    
+}
