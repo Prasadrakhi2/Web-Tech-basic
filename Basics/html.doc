@@ -5,6 +5,7 @@ HTML => hyper text marcup language
 
                 tage -> 1. inline tags(contain space only for that element or part ex => <b> rakhi </b> )      
                         2. block tags
+                        
 
 tages :=
 1. <b></b>  => bold

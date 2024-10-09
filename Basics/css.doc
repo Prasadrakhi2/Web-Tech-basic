@@ -85,6 +85,8 @@ box =>
 
 
 
+//Parents properties
+
 ///*********  Flex - box ************************//
 * it is a "parent" property which take all element either x-axis in web and y-axis in phone
 * if total size of 'childs' are more to bhi 'parent' adjest all child in same line 
@@ -95,3 +97,35 @@ box =>
 1.  flex-wrap: wrap;
 2.flex-direction : ; (row-normaly it is done, colum-it take all items verticaly like in phone)
                          (also - row-reverse, col-reverse)
+
+
+
+
+
+
+//*****************  *********//
+//when "display : flex; " is given then 'justify content' & 'align items' & 'gap' will work 
+
+if flex-direction : row; then
+1. justify-containt => work in width / adjust things in row and
+   align-items => work in height / adjust the coloum things
+
+if flex-decoretion : coloum; then
+1. justify-containt => work in height / adjust things in colum and
+   align-items => work in width / adjust the row things
+
+// if we want to place 1 box in left and 1 in right / give the same space to all use (see task -6)
+1. justify-containt : space-between;
+
+1. justify-containt : space-around;  //giv the equal space in left and right to the box
+
+
+//align-items
+use (space-between, flex-start, flex-end)
+
+//gap : 2px;   => give the space between child directly
+
+
+
+
+//**************** Psudo classes and Psudo element *********//
